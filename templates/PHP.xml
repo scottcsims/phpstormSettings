@@ -1,0 +1,16 @@
+<templateSet group="PHP">
+  <template name="etest" value="    use Trinet\Time\Entity\$EntityName$;&#10;&#10;    public function test$EntityName$Entity()&#10;    {&#10;        $InstanceName$ = new $EntityName$();&#10;        $this-&gt;assertInstanceOf($EntityName$::class, $InstanceName$);&#10;    }&#10;" description="EntityTest" toReformat="true" toShortenFQNames="true">
+    <variable name="EntityName" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="InstanceName" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rtest" value="    public function test$EntityName$CRUD()&#10;    {&#10;        //Given&#10;        $InstanceName$ = $this-&gt;dummyData-&gt;get$EntityName$();&#10;        $this-&gt;entityManager-&gt;persist($InstanceName$);&#10;        $this-&gt;entityManager-&gt;flush();&#10;&#10;        //When&#10;        found$EntityName$  = $this-&gt;$InstanceName$Repository-&gt;findOneById(1);&#10;&#10;        //Then&#10;        $this-&gt;assertEquals(1, found$EntityName$-&gt;getId());&#10;    }" description="RepositoryTest" toReformat="true" toShortenFQNames="true">
+    <variable name="EntityName" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="InstanceName" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
