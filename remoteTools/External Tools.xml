@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="runSingleTest" description="for cake php tests" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true" CONNECTION_TYPE="CURRENT_VAGRANT">
-    <exec>
-      <option name="COMMAND" value="/home/vagrant/time/app/Console/cake " />
-      <option name="PARAMETERS" value="test app" />
-      <option name="WORKING_DIRECTORY" value="/home/vagrant/time/app" />
-    </exec>
-  </tool>
-</toolSet>
