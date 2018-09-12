@@ -14,8 +14,8 @@
       <interpreter home="vagrant:///Users/ssims/PhpstormProjects/myticket/vagrant/ansible_time/shared/roles/web.php/usr/bin/php" id="6e58e015-350c-496e-a197-55d2d5e11c90" name="Webserver PHP 5.6" debugger_id="php.debugger.XDebug">
         <remote_data VAGRANT_FOLDER="$USER_HOME$/PhpstormProjects/myticket/vagrant/ansible_time/shared/roles/web.php" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="/usr/local/Cellar/php@5.6/5.6.37/bin/php" id="9999465b-de06-4020-8ebe-1a65262e68cd" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
       <interpreter home="/usr/local/Cellar/php/7.2.4/bin/php" id="d778fbf2-4043-4cfe-9524-2aa223b20d90" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/Cellar/php@5.6/5.6.37/bin/php" id="076d4d41-c94b-4971-8dc3-67cb883d7550" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
