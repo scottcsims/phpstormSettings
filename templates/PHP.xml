@@ -13,4 +13,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="llm" value="/**&#10;* @return $NAME$&#10;* @throws \CakeException&#10;*/&#10;public function get$NAME$(){&#10;   return $this-&gt;lazyLoad($NAME$::class);&#10;}" description="lazy load model" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
