@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="AccrualDateInterval.php" type="PHP" />
+      <mapping pattern="AppControllerTestCase" type="PHP" />
       <mapping ext="ctp" type="PHP" />
       <mapping pattern="DateConstraintParserTest.php" type="PLAIN_TEXT" />
     </extensionMap>
