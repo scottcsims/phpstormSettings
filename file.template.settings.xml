@@ -4,5 +4,8 @@
       <template name="CakePHPModel.php" reformat="false" live-template-enabled="true" />
       <template name="CakePHPModelTest.php" reformat="true" live-template-enabled="true" />
     </default_templates>
+    <includes_templates>
+      <template name="PHP File Header.php" reformat="true" live-template-enabled="false" enabled="false" />
+    </includes_templates>
   </component>
 </application>
