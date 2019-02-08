@@ -1,8 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" />
-    <notification groupId="Dependencies from package.json" displayType="STICKY_BALLOON" />
-    <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
-    <notification groupId="PHP Debugger" displayType="TOOL_WINDOW" />
-  </component>
-</application>
