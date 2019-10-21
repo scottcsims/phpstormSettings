@@ -13,12 +13,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="vagrant:///Users/ssims/PhpstormProjects/myticket/vagrant/ansible_time/shared/roles/web.php/usr/bin/php" id="6e58e015-350c-496e-a197-55d2d5e11c90" name="Webserver PHP 5.6" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/PhpstormProjects/myticket/vagrant/ansible_time/shared/roles/web.php" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter id="6e58e015-350c-496e-a197-55d2d5e11c90" name="Webserver PHP 5.6" home="vagrant://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data VAGRANT_FOLDER="$USER_HOME$/PhpstormProjects/myticket/vagrant/ansible_time/shared/roles/web.php" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
       </interpreter>
-      <interpreter home="/usr/local/Cellar/php@5.6/5.6.35/bin/php" id="9999465b-de06-4020-8ebe-1a65262e68cd" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/usr/local/Cellar/php/7.3.2/bin/php" id="d778fbf2-4043-4cfe-9524-2aa223b20d90" name="PHP 7.3.2" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/usr/local/Cellar/php@7.2/7.2.15/bin/php" id="a6e489ba-7e6a-4c97-b4f1-21f000ee10f3" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
+      <interpreter id="9999465b-de06-4020-8ebe-1a65262e68cd" name="PHP 5.6" home="/usr/local/Cellar/php@5.6/5.6.35/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="d778fbf2-4043-4cfe-9524-2aa223b20d90" name="PHP 7.3.2" home="/usr/local/Cellar/php/7.3.2/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="a6e489ba-7e6a-4c97-b4f1-21f000ee10f3" name="PHP 7.2" home="/usr/local/Cellar/php@7.2/7.2.15/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -104,7 +104,11 @@
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.2/7.2.15/share/php@7.2/pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.0">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -164,6 +168,7 @@
             <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
