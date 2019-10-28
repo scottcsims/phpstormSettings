@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="cake_original" type="Bash" />
+      <mapping pattern="fake_sqs" type="Bash" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="dockerInspect" type="JSON" />
