@@ -1,9 +1,9 @@
 <toolSet name="External Tools">
-  <tool name="Console\cake test app" description="Console\cake test app" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="Console\cake test app" description="Console\cake test app" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="/home/vagrant/time/app/Console/cake" />
-      <option name="PARAMETERS" value="test app" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+      <option name="COMMAND" value="docker exec -it time_php_1 Console/cake test app" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PhpstormProjects/time/sites/time/app" />
     </exec>
   </tool>
 </toolSet>
