@@ -1,102 +1,18 @@
 <application>
   <component name="MessDetector">
-    <phpmd_settings_migrated />
     <phpmd_settings>
       <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
   <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
     <phpcs_settings>
       <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/PhpstormProjects/myticket/sites/time/app/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="6e58e015-350c-496e-a197-55d2d5e11c90" name="Webserver PHP 5.6" home="vagrant://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/PhpstormProjects/myticket/vagrant/ansible_time/shared/roles/web.php" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
-      </interpreter>
-      <interpreter id="9999465b-de06-4020-8ebe-1a65262e68cd" name="PHP 5.6" home="/usr/local/Cellar/php@5.6/5.6.35/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="d778fbf2-4043-4cfe-9524-2aa223b20d90" name="PHP 7.3.2" home="/usr/local/Cellar/php/7.3.2/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="a6e489ba-7e6a-4c97-b4f1-21f000ee10f3" name="PHP 7.2" home="/usr/local/Cellar/php@7.2/7.2.15/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
-  </component>
-  <component name="PhpInterpretersPhpInfoCache">
-    <phpInfoCache>
-      <interpreter name="Webserver PHP 5.6">
-        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" remote_host="10.0.2.2" version="5.6.30" warning="Cannot load Xdebug - extension already loaded&#10;">
-          <additional_php_ini>/etc/php.d/10-opcache.ini, /etc/php.d/15-xdebug.ini, /etc/php.d/20-bz2.ini, /etc/php.d/20-calendar.ini, /etc/php.d/20-ctype.ini, /etc/php.d/20-curl.ini, /etc/php.d/20-dom.ini, /etc/php.d/20-exif.ini, /etc/php.d/20-fileinfo.ini, /etc/php.d/20-ftp.ini, /etc/php.d/20-gd.ini, /etc/php.d/20-gettext.ini, /etc/php.d/20-gmp.ini, /etc/php.d/20-iconv.ini, /etc/php.d/20-mbstring.ini, /etc/php.d/20-mcrypt.ini, /etc/php.d/20-mysqlnd.ini, /etc/php.d/20-pdo.ini, /etc/php.d/20-phar.ini, /etc/php.d/20-posix.ini, /etc/php.d/20-shmop.ini, /etc/php.d/20-simplexml.ini, /etc/php.d/20-soap.ini, /etc/php.d/20-sockets.ini, /etc/php.d/20-sqlite3.ini, /etc/php.d/20-sysvmsg.ini, /etc/php.d/20-sysvsem.ini, /etc/php.d/20-sysvshm.ini, /etc/php.d/20-tokenizer.ini, /etc/php.d/20-xml.ini, /etc/php.d/20-xmlwriter.ini, /etc/php.d/20-xsl.ini, /etc/php.d/30-mysql.ini, /etc/php.d/30-mysqli.ini, /etc/php.d/30-pdo_mysql.ini, /etc/php.d/30-pdo_sqlite.ini, /etc/php.d/30-wddx.ini, /etc/php.d/30-xmlreader.ini, /etc/php.d/40-apcu.ini, /etc/php.d/40-json.ini, /etc/php.d/40-zip.ini</additional_php_ini>
-          <configuration_file>/etc/php.ini</configuration_file>
-          <configuration_options>
-            <configuration_option name="include_path" value=".:/var/www/time/vendor/phpunit/phpunit" />
-          </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.0">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
-          <loaded_extensions>
-            <extension name="Core" />
-            <extension name="PDO" />
-            <extension name="Phar" />
-            <extension name="Reflection" />
-            <extension name="SPL" />
-            <extension name="SimpleXML" />
-            <extension name="Zend OPcache" />
-            <extension name="apc" />
-            <extension name="apcu" />
-            <extension name="bz2" />
-            <extension name="calendar" />
-            <extension name="ctype" />
-            <extension name="curl" />
-            <extension name="date" />
-            <extension name="dom" />
-            <extension name="ereg" />
-            <extension name="exif" />
-            <extension name="fileinfo" />
-            <extension name="filter" />
-            <extension name="ftp" />
-            <extension name="gd" />
-            <extension name="gettext" />
-            <extension name="gmp" />
-            <extension name="hash" />
-            <extension name="iconv" />
-            <extension name="json" />
-            <extension name="libxml" />
-            <extension name="mbstring" />
-            <extension name="mcrypt" />
-            <extension name="mhash" />
-            <extension name="mysql" />
-            <extension name="mysqli" />
-            <extension name="mysqlnd" />
-            <extension name="openssl" />
-            <extension name="pcntl" />
-            <extension name="pcre" />
-            <extension name="pdo_mysql" />
-            <extension name="pdo_sqlite" />
-            <extension name="posix" />
-            <extension name="readline" />
-            <extension name="session" />
-            <extension name="shmop" />
-            <extension name="soap" />
-            <extension name="sockets" />
-            <extension name="sqlite3" />
-            <extension name="standard" />
-            <extension name="sysvmsg" />
-            <extension name="sysvsem" />
-            <extension name="sysvshm" />
-            <extension name="tokenizer" />
-            <extension name="wddx" />
-            <extension name="xdebug" />
-            <extension name="xml" />
-            <extension name="xmlreader" />
-            <extension name="xmlwriter" />
-            <extension name="xsl" />
-            <extension name="zip" />
-            <extension name="zlib" />
-          </loaded_extensions>
-        </phpinfo>
-      </interpreter>
-    </phpInfoCache>
   </component>
 </application>
