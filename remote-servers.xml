@@ -14,19 +14,5 @@
         </option>
       </configuration>
     </remote-server>
-    <remote-server name="Docker-Ansible-Time" type="docker">
-      <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
-        <option name="certificatesPath" />
-        <option name="pathMappings">
-          <list>
-            <DockerPathMappingImpl>
-              <option name="localPath" value="$USER_HOME$/PhpstormProjects/time/sites/time" />
-              <option name="virtualMachinePath" value="/var/www/time" />
-            </DockerPathMappingImpl>
-          </list>
-        </option>
-      </configuration>
-    </remote-server>
   </component>
 </application>
