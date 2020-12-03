@@ -13,8 +13,8 @@
     <interpreters>
       <interpreter id="d778fbf2-4043-4cfe-9524-2aa223b20d90" name="PHP 7.3.2" home="/usr/local/Cellar/php/7.3.2/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="a6e489ba-7e6a-4c97-b4f1-21f000ee10f3" name="PHP 7.2" home="/usr/local/Cellar/php@7.2/7.2.15/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="b036c98f-5cab-487f-b9fd-14cfddbf1ada" name="ansible_time_time:latest" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="ansible_time_time:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
+      <interpreter id="e4246fb8-35f3-42e9-b375-f8a5d2b16683" name="ansible_time_time:latest" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="ansible_time_time:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
     </interpreters>
   </component>
@@ -80,10 +80,5 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="b036c98f-5cab-487f-b9fd-14cfddbf1ada" bootstrap_file_path="/var/www/time/app/phpunit_bootstrap.php" configuration_file_path="/var/www/time/app/phpunit-src.xml" custom_loader_path="/opt/project/app/vendor/autoload.php" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
-    </phpunit_settings>
   </component>
 </application>
